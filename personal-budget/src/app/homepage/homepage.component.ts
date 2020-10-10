@@ -8,7 +8,6 @@ import { Chart } from 'chart.js';
 	styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent implements OnInit {
-
 	constructor(private http: HttpClient) { }
 
 	ngOnInit(): void {
@@ -47,5 +46,4 @@ export class HomepageComponent implements OnInit {
 			data: dataSource
 		});
 	}
-
 }

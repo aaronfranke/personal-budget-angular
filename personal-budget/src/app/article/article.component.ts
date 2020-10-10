@@ -6,7 +6,6 @@ import { Component, Input, OnInit } from '@angular/core';
 	styleUrls: ['./article.component.scss']
 })
 export class ArticleComponent implements OnInit {
-
 	@Input() title = "Untitled";
 	@Input() id = "error";
 
@@ -14,5 +13,4 @@ export class ArticleComponent implements OnInit {
 
 	ngOnInit(): void {
 	}
-
 }

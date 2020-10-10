@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./p404.component.scss']
 })
 export class P404Component implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
